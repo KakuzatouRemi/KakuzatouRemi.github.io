@@ -1,6 +1,6 @@
 <div style="
     text-align: left; 
-    margin: 20px 0; 
+    margin: -40px -24px; 
     width: calc(150px * 2.5); 
     height: calc(150px * 2.5); 
     overflow: visible;">
