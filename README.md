@@ -20,8 +20,8 @@
 </style>
 
 <div style="
-    width: 240px; 
-    height: 179px; 
+    width: 180px; 
+    height: 134px; 
     overflow: hidden; 
     position: relative; 
     border: 0px solid red;">
@@ -30,12 +30,12 @@
     src="https://pulsoid.net/widget/view/1253cc20-0831-45ec-bfa4-bce269cfd9a5" 
     style="
         position: absolute;
-        top: -73px;   /* Pulls the widget UP to crop the top */
-        left: -55px;  /* Pulls the widget LEFT to crop the left side */
-        width: 450px; /* Makes the internal frame larger for scaling */
+        top: -55px;   /* Adjusted proportionally (-73 * 0.75) */
+        left: -41px;  /* Adjusted proportionally (-55 * 0.75) */
+        width: 450px; 
         height: 450px;
         background: transparent;
-        transform: scale(0.96); /* Adjust scale to fit the new crop box */
+        transform: scale(0.72); 
         transform-origin: left top;"
     frameborder="0" 
     scrolling="no">
