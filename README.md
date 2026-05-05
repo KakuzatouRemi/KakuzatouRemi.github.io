@@ -43,6 +43,10 @@
 </div>
 
 <div style="margin-top: 10px;">
-  Hello World<br>
+  Remi's Heart Rate
+  <br>
+  <br>
+  Hello World
+  <br>
   Goodbye World
 </div>
