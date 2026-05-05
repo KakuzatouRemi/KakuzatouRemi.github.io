@@ -1,3 +1,24 @@
+<style>
+  body {
+    background-color: #121212 !important;
+    background-image: none !important; /* Removes Dinky's default texture */
+    color: #d0d0d0 !important;
+  }
+
+  /* Target the theme's specific containers */
+  header, #content-wrapper, .wrapper {
+    background-color: #121212 !important;
+    background: #121212 !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  /* Keep text readable */
+  h1, h2, h3, h4, strong, header h1 a {
+    color: #ffffff !important;
+  }
+</style>
+
 <div style="
     width: 240px; 
     height: 179px; 
