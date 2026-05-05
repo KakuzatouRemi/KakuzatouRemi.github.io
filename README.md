@@ -1,6 +1,6 @@
 <div style="
-    width: 300px; 
-    height: 260px; 
+    width: 240px; 
+    height: 179px; 
     overflow: hidden; 
     position: relative; 
     border: 0px solid red;">
@@ -9,8 +9,8 @@
     src="https://pulsoid.net/widget/view/1253cc20-0831-45ec-bfa4-bce269cfd9a5" 
     style="
         position: absolute;
-        top: -44px;   /* Pulls the widget UP to crop the top */
-        left: -24px;  /* Pulls the widget LEFT to crop the left side */
+        top: -73px;   /* Pulls the widget UP to crop the top */
+        left: -55px;  /* Pulls the widget LEFT to crop the left side */
         width: 450px; /* Makes the internal frame larger for scaling */
         height: 450px;
         background: transparent;
