@@ -3,7 +3,7 @@
     margin: -40px -24px; 
     width: calc(150px * 2.5); 
     height: calc(150px * 2.5); 
-    overflow: visible;">
+    overflow: hidden;">
   <iframe 
     src="https://pulsoid.net/widget/view/1253cc20-0831-45ec-bfa4-bce269cfd9a5" 
     width="150" 
