@@ -43,7 +43,7 @@
 </div>
 
 <div style="margin-top: 10px;">
-  ==Remi's Heart Rate==
+  Remi's Heart Rate
   <br>
   <br>
   Hello World
