@@ -2,9 +2,9 @@
 <html lang="en" class="dark">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Remi Kakuzatou | VTuber & Writing</title>
+    <title>Remi Kakuzatou | VTuber</title>
+    <link rel="icon" href="favicon.ico" />
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Font Awesome Icons -->
@@ -47,26 +47,18 @@
         }
 
         /* Heartbeat pulse animation synced to BPM duration */
-        @keyframes pulseBeat {
-            0% {
-                transform: scale(1);
-            }
-            15% {
-                transform: scale(1.35);
-            }
-            30% {
-                transform: scale(1);
-            }
-            45% {
-                transform: scale(1.2);
-            }
-            60% {
-                transform: scale(1);
-            }
-            100% {
-                transform: scale(1);
-            }
-        }
+        /* Smooth expand and shrink scaling animation */
+		@keyframes pulseBeat {
+			0% {
+				transform: scale(1);
+			}
+			50% {
+				transform: scale(1.35); /* Expand */
+			}
+			100% {
+				transform: scale(1);    /* Shrink back */
+			}
+		}
 
         .heart-beat {
             display: inline-block;
